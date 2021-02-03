@@ -24,7 +24,7 @@ const ControlledInputs = () => {
       console.log('empty values')
     }
   }
-  return (
+  return -(
     <>
       <article>
         <form className='form' onSubmit={handleSubmit}>
